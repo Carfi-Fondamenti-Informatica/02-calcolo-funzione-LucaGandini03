@@ -8,9 +8,9 @@ int main() {
     float y = 0;
     float z = 0;
     cin >> a >> b >> x >> y;
-    if (x < 0 < y) {
+    if (x<0 && y>0) {
         z = (a*x*x)-(b*y);}
-    else if (y <= 0 <= x) {
+    else if (y<=0 && x>=0) {
         z = (a*x*x)-(b*y);}
     else{
        z=(a*x)+(b*y*y);}
