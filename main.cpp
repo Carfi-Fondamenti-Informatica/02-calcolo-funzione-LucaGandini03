@@ -10,7 +10,7 @@ int main() {
     cin >> a >> b >> x >> y;
     if (x < 0,0 < y) {
         z = ((a * x) - (b * y));}
-    if (y <= 0,0 <= x) {
+    else if (y <= 0,0 <= x) {
         z = (a * (x * x)) - (b * y);}
     else{
        z=(a * x)+(b * (y * y));}
